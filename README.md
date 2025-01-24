@@ -60,3 +60,14 @@ Open your browser or use a tool like `curl` or Postman to visit:
 ```
 http://localhost:8000/getTimeStories
 ```
+
+## How It Works
+
+### Fetching Data
+- The script uses Python's `http.client` to fetch the HTML content of the homepage of [time.com](https://time.com).
+
+### Parsing Stories
+- A regex pattern dynamically extracts the relative `href` links and story titles from the **Latest Stories** section of the website.
+
+### Serving API
+- The API endpoint is created using Python's built-in `http.server`, allowing you to access the extracted data as JSON.
