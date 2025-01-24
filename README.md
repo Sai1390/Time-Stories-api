@@ -11,7 +11,7 @@ A simple Python-based API that scrapes the latest stories from [time.com](https:
 ## Example Output
 When you access the API at `http://localhost:8000/getTimeStories`, it returns a JSON response like this:
 
-```json
+json
 [
     {
         "title": "Who Is Handing Trump All Those Executive Orders? Meet Will Scharf",
