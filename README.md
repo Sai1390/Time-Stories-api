@@ -8,10 +8,12 @@ A simple Python-based API that scrapes the latest stories from [time.com](https:
 - Provides an easy-to-use custom API endpoint: `http://localhost:8000/getTimeStories`.
 - Lightweight and runs locally with minimal dependencies.
 
+---
+
 ## Example Output
 When you access the API at `http://localhost:8000/getTimeStories`, it returns a JSON response like this:
 
-json
+```json
 [
     {
         "title": "Who Is Handing Trump All Those Executive Orders? Meet Will Scharf",
@@ -38,21 +40,23 @@ json
         "link": "https://time.com/7209398/business-climate-optimism-drive-action/"
     }
 ]
+```
+## Steps to Run
 
-Steps to Run
-Clone the repository:
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/Time-Stories-api.git
+cd Time-Stories-api
+```
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/time-stories-api.git
-cd time-stories-api
-Run the Python server:
-
-bash
-Copy
-Edit
+### Run the Python Server
+```bash
 python time_api_server.py
-Access the API:
+```
 
-Open your browser or use a tool like curl or Postman to visit: http://localhost:8000/getTimeStories.
+### Access the API
+Open your browser or use a tool like `curl` or Postman to visit:
+
+```
+http://localhost:8000/getTimeStories
+```
