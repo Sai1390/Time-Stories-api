@@ -51,7 +51,7 @@ cd Time-Stories-api
 
 ### Run the Python Server
 ```bash
-python time_api_server.py
+python Assignment_time.com.py
 ```
 
 ### Access the API
